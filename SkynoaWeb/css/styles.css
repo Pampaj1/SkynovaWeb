@@ -10893,8 +10893,10 @@ section {
 .device::after {
   position: absolute;
   background-size: cover;
-  width: 100%;
-  height: 100%;
+  top: 25%;
+  right: -50%;
+  width: 200%;
+  height: 40%;
   pointer-events: none;
 }
 
