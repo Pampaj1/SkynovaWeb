@@ -10900,6 +10900,17 @@ section {
   pointer-events: none;
 }
 
+.device1::after {
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 35%;
+  right: 0;
+  width: 150%;
+  height: 40%;
+  pointer-events: none;
+}
+
 .device .screen {
   position: absolute;
   background-size: cover;
@@ -10926,6 +10937,11 @@ section {
   content: "";
   background-image: url("../assets/img/DroneModel1.png");
 }
+
+.device1[data-device=iPhoneX][data-orientation=portrait][data-color=black]::after {
+  content: "";
+  background-image: url("../assets/DroneModel2.png")
+} 
 
 .device[data-device=iPhoneX][data-orientation=portrait][data-color=black] .button {
   display: none;
