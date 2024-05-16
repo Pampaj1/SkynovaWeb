@@ -10976,6 +10976,11 @@ section.cta:before {
   font-size: 4rem;
 }
 
+.icon-feature1 {
+  text-align: center;
+  font-size: 10rem;
+}
+
 .features-device-mockup {
   display: flex;
   align-items: center;
@@ -11034,6 +11039,10 @@ section.cta:before {
   .features-device-mockup .device-wrapper {
     max-width: 15rem;
   }
+
+  .icon-feature1 {
+    font-size: 15rem;
+  }
 }
 @media (min-width: 992px) {
   .features-device-mockup .circle {
@@ -11051,6 +11060,10 @@ section.cta:before {
   .features-device-mockup .device-wrapper {
     max-width: 15rem;
     margin-left: auto;
+  }
+
+  .icon-feature1 {
+    font-size: 20rem;
   }
 }
 @media (min-width: 1200px) {
